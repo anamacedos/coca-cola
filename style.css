@@ -23,7 +23,7 @@ header{
     align-items: center;
     justify-content: left;
     padding: 3%;
-    gap: 18px;
+    gap: 21px;
 }
 
 main{
@@ -31,6 +31,10 @@ main{
     display: flex;
     flex-grow: 1;
     height: 950px;
+    align-items: center;
+    justify-content: center;
+
+
 }
 body{
 
@@ -42,12 +46,22 @@ body{
 .menu{
     font-family: "Afacad Flux", sans-serif;
     font-optical-sizing: auto;
-    font-size: 175%;
+    font-size: 180%;
     font-weight: 300;
     font-style: normal;
     font-variation-settings:
       "slnt" 0;
     color: white;
+}
+
+.fotomenu img{
+    transform: scale(1.5); /* Aumenta a imagem em 150% */
+    transform-origin: center; /* Define o ponto de origem da transformação */
+}
+
+.imagem img{
+    height: 1000px;
+    width: 2000px;
 }
 
 
